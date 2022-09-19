@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Test</title>
+</head>
+<body class="relative">
+    <header class="h-14 w-full flex items-center justify-between bg-examinePurple lg:h-16 lg:bg-white border drop-shadow-md">
+        <div class="w-full h-8 flex items-center">
+            <div class="ml-3 p-1 bg-[#826595] w-8 h-7 flex justify-center rounded lg:hidden">
+                <button class="hammenu">
+                    <span class="hammenu-top bg-white"></span>
+                    <span class="hammenu-middle bg-white"></span>
+                    <span class="hammenu-bottom bg-white"></span>
+                </button>
+            </div>
+            <!-- Logo -->
+            <div class="ml-3 w-52">
+                <img src="img/logowhite.png" class="h-4 lg:hidden" alt="">
+                <img src="img/logo.svg" class="hidden h-6 w-36 lg:block" alt="">
+            </div>
+
+            <div class="hidden lg:block w-2/3 bg-[#F7F7F7]">
+                <div class="flex items-center content-start h-16 px-4 shadow-inner">
+                    <img src="img/search_icon_purple.png" class="h-6" alt="">
+                    <input type="text" class="ml-2 border-b w-96 border-gray-600 bg-[#F7F7F7]" placeholder="What do you want to learn about?">
+                </div>
+            </div>
+
+            <div class="hidden lg:block ml-auto px-4 w-96">
+                <div class="flex items-center justify-end h-16 gap-4">
+                    <a href="#" class="h-5">Login</a>
+                    <a href="#">
+                        <button class="flex items-center justify-center rounded-full px-2.5 py-5 bg-[#FFD747] text-examinePurple font-bold h-11 w-24">
+                            Sign up
+                        </button>
+                    </a>
+                    <div class="pt-1 mr-2">
+                        <button class="hammenu">
+                            <span class="hammenu-top bg-black"></span>
+                            <span class="hammenu-middle bg-black"></span>
+                            <span class="hammenu-bottom bg-black"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Search -->
+            <button class="mr-2 ml-auto px-4 lg:hidden">
+                <img src="img/search_icon.png" alt="" class="h-5">
+            </button>
+        </div>  
+    </header>
+
+    <main>
+        <div class="mx-auto w-full mb-5 max-w-lg lg:max-w-[650px] md:pt-20 lg:pt-28 md:pb-60">
+            <div class="relative px-6 pt-8 bg-white text-center flex flex-col content-start gap-6 md:border rounded-lg md:shadow-xl md:p-14 lg:p-20">
+                <div class="flex flex-col content-center gap-3">
+                    <h2 class="font-heading font-semibold text-4xl">Welcome Back! 👋</h2>
+                    <p class="font-body font-thin text-gray-400 text-sm">Let's build something great</p>
+                </div>
+                <div class="flex flex-col content-start">
+                    <div class="flex items-center justify-center gap-4 h-7">
+                        <div class="rounded border border-gray-50 shadow-md">
+                            <button class="flex items-center justify-center w-9 h-7">
+                                <img class="h-3" src="img/socials/google-icon.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="rounded border border-gray-50 shadow-md">
+                            <button class="flex items-center justify-center w-9 h-7">
+                                <img class="h-3" src="img/socials/apple-Logo.png" alt="">
+                            </button>
+                        </div>
+                        <div class="rounded border border-gray-50 shadow-md">
+                            <button class="flex items-center justify-center w-9 h-7">
+                                <img class="h-4" src="img/socials/facebook-icon.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center content-start h-6 gap-4">
+                    <div class="flex-grow border-t border-gray-300"></div>
+                    <p class="font-body font-xs font-thin text-gray-400">OR</p>
+                    <div class="flex-grow border-t border-gray-300"></div>
+                    <hr>
+                </div>
+                <div class="flex flex-col content-start gap-6">
+                    <div class="border rounded-sm border-gray-300">
+                        <input type="email" placeholder="Email" class="font-body font-sm font-thin w-full h-9 p-1">
+                    </div>
+                    <div class="flex border rounded-sm border-gray-300">
+                        <input type="password" placeholder="Password" class="font-body font-sm font-thin w-full h-9 p-1">
+                        <span class="pr-1 pt-2 text-xs font-body font-semibold text-examinePurple cursor-pointer">SHOW</span>
+                    </div>
+                    <button class="flex items-center justify-center w-full rounded-md h-9 bg-examinePurple text-white font-body">
+                        Register
+                    </button>
+                </div>
+                <div class="rounded-md border border-dotted border-infoBoxBold flex flex-col items-center justify-center w-full bg-infoBox cursor-pointer text-infoBoxBold h-28 p-2">
+                    <h2 class="font-semibold text-lg font-heading">Click here!</h2>
+                    <p class="text-sm font-thin font-body">to sign up for the complete Examine Membership.
+                        Includes a free 2 week trial!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Site Fonts */
+@font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Inter.otf");
+}
+@font-face {
+  font-family: "Lora";
+  src: url("../public/fonts/Lora.ttf");
+}
+
+/* Hamburger Menu */
+.hammenu {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.hammenu-top,
+.hammenu-middle,
+.hammenu-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 2px;
+}
+
+.hammenu-middle {
+  transform: translateY(6px);
+}
+
+.hammenu-bottom {
+  transform: translateY(12px);
+}

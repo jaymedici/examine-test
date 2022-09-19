@@ -5,7 +5,13 @@ module.exports = {
     './components/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        examinePurple: '#562E69',
+        infoBox: 'rgba(37, 161, 175, 0.1)',
+        infoBoxBold: '#25A1AF'
+      },
+    },
   },
   plugins: [],
 }
