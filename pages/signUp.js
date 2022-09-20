@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 const SignUp = () => (
   <div>
     <Head>
-      <title>Examine - login</title>
+      <title>Examine - Sign up</title>
       <link rel='icon' href='img/favicon.ico'/>
     </Head>
     <TopBar />
