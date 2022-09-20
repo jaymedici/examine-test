@@ -5,11 +5,15 @@
 /* Site Fonts */
 @font-face {
   font-family: "Inter";
-  src: url("../public/fonts/Inter.otf");
+  src: url("../public/fonts/Inter-Light.ttf");
 }
 @font-face {
   font-family: "Lora";
   src: url("../public/fonts/Lora.ttf");
+}
+
+body {
+  font-family: "Inter", sans-serif;
 }
 
 /* Hamburger Menu */

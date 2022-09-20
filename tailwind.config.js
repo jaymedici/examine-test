@@ -5,6 +5,9 @@ module.exports = {
     './components/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
+    fontFamily: {
+      'heading': ['Lora', 'serif'],
+    },
     extend: {
       colors: {
         examinePurple: '#562E69',
